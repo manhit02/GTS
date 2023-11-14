@@ -1,0 +1,138 @@
+.app28 {
+    &-body {
+        padding: 0 30px 30px;
+        margin: 35px 0 30px;
+        width: 100%;
+        &__ul {
+            display: flex;
+            justify-content: center;
+            margin: 0 -8px 40px;
+            &-li {
+                margin: 0 8px;
+                width: calc(100% / 3 - 16px);
+                display: flex;
+                flex-direction: column;
+
+                &__span {
+                    color: #000;
+                    font-size: 16px;
+                    font-family: "NotoSans-medium";
+
+                    margin-bottom: 13px;
+                }
+                &__input,
+                &__select {
+                    width: 100%;
+                    border-radius: 7.018px;
+                    border: 0.877px solid #0066bc;
+                    background: #fff;
+                    height: 48px;
+                    color: #000;
+                    font-size: 16px;
+                    font-family: "NotoSans-SemiBold";
+                    padding-left: 16px;
+                }
+                &__em {
+                    display: flex;
+                    align-items: center;
+                }
+                &__p {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: #ece9e9;
+                    height: 48px;
+                    color: #000;
+                    font-size: 21px;
+                    font-family: "NotoSans-SemiBold";
+                    padding: 0 30px;
+                    margin-right: 16px;
+                }
+            }
+            &2 {
+                padding: 50px 0 60px 60px;
+                margin-top: 33px;
+                width: 100%;
+                border-radius: 12px;
+                background: #cde8ff;
+                -webkit-border-radius: 12px;
+                -moz-border-radius: 12px;
+                -ms-border-radius: 12px;
+                -o-border-radius: 12px;
+                &-li {
+                    margin: 8px 0;
+                    display: flex;
+                    align-items: center;
+                    &__h2 {
+                        min-width: 30%;
+                        color: #000;
+                        font-size: 18px;
+                        font-family: "NotoSans-bold";
+
+                        line-height: 32px;
+                    }
+                    &__p {
+                        color: #000;
+                        font-size: 18px;
+                        font-family: "NotoSans";
+
+                        line-height: 32px;
+                        &1 {
+                            color: #ce1126;
+                        }
+                    }
+                }
+            }
+        }
+        &__a {
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 350px;
+            height: 56px;
+            border-radius: 8px;
+            background: #0066bc;
+            color: #fff;
+            font-size: 18px;
+            font-family: "NotoSans-SemiBold";
+        }
+    }
+}
+// tablet
+@media (min-width: 740px) and (max-width: 1023px) {
+    .app28 {
+        &-span {
+            font-size: 18px !important;
+        }
+        &-body {
+          padding: 16px !important;
+            &__ul {
+                margin-bottom: 0;
+                flex-wrap: wrap;
+                &-li {
+                    margin-bottom: 24px;
+                    width: calc(50% - 16px);
+                    &3 {
+                        width: 100%;
+                        margin-bottom: 30px;
+                    }
+                }
+                &2 {
+                    padding: 16px;
+                    &-li {
+                        &__h2,
+                        &__p {
+                            font-size: 16px;
+                        }
+                        &__h2{min-width: 40%;}
+                    }
+                }
+            }
+        }
+    }
+}
+/* mobile */
+
+@media (max-width: 739px) {
+}

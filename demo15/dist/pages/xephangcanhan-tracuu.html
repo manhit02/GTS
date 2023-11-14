@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">  
+      <div class="container">
+        <div class="header-top">
+          <div class="header-top__menumb js-menumb"><img class="js-showmenu" src="../assets/images/menumb.png">
+            <ul>
+              <li> <a href="./home.html"><img src="../assets/images/logo.png" alt=""></a><img class="js-closemenu" src="../assets/images/exit.png" alt=""></li>
+              <li class="active"><em><a href="./dangnhap.html">Đăng nhập / Đăng ký</a><img src="../assets/images/avata2.png" alt=""></em><em> <a href="./thongtincanhan-thanhvien.html">Nguyễn Ngọc Hoàn <br><strong>Thành viên</strong></a><img src="../assets/images/avata3.png" alt=""></em></li>
+              <li>
+                <input placeholder="Tra cứu nhanh"><img src="../assets/images/search.png" alt="">
+              </li>
+              <li><a href="./home.html">Trang chủ</a></li>
+              <li><a href="./gioithieu.html">Giới thiệu    </a></li>
+              <li><a href="./thi.html">Thi </a></li>
+              <li><a href="./hoctap.html">Học tập  </a></li>
+              <li><a class="header-submn__a collapsed" href="#collapse1" data-bs-toggle="collapse">Tra cứu</a>
+                <ul class="collapse header-submn__ul" id="collapse1">
+                  <li class="header-submn__ul-li"><a class="header-submn__ul-li__a" href="">Tra cứu vi phạm</a></li>
+                  <li class="header-submn__ul-li"><a class="header-submn__ul-li__a" href="">Tra cứu kết quả thi</a></li>
+                  <li class="header-submn__ul-li"><a class="header-submn__ul-li__a" href="">Thống kê</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Liên hệ</a></li>
+            </ul>
+            <div class="header-top__menumb-overlay"></div>
+          </div>
+          <div class="header-top__logo"><a href="./home.html"><img src="../assets/images/logo.svg" alt=""></a></div>
+          <div class="header-top__loginmb js-showprofile active"></div>
+          <ul class="header-top__contact">
+            <li><img src="../assets/images/gm.png" alt=""><a href="mailto:support@vtc.vn">support@vtc.vn</a></li>
+            <li><img src="../assets/images/fa.png"><a href="support@vtc.vn">support@vtc.vn</a></li>
+            <li><img src="../assets/images/pn.png" alt=""><a href="tel:19001234">19001234</a></li>
+          </ul>
+          <div class="header-top__login js-login active">
+            <ul>
+              <li> <a href="./dangnhap.html">Đăng nhập</a></li>
+              <li> <a href="./dangki.html">Đăng ký</a></li>
+            </ul>
+            <ul> 
+              <li> <em><a href="./thongtincanhan-thanhvien.html"><span><img src="../assets/images/avtaa.png" alt=""></span><span>vanminh12</span></a></em><img src="../assets/images/row.png" alt="">
+                <ul>
+                  <li> <img src="../assets/images/avtaa.png" alt=""><a href="./thongtincanhan-thanhvien.html">Thông tin cá nhân</a></li>
+                  <li>  <img src="../assets/images/book.png" alt=""><a href="#">Khóa học đã tham gia</a></li>
+                  <li> <img src="../assets/images/key.png" alt=""><a href="./thongtincanhan-thanhvien.html">Đổi mật khẩu</a></li>
+                  <li class="js-logout">Đăng xuất</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="header-nav js-nav">
+        <div class="container"><a class="header-nav__homemb" href="./home.html"></a>
+          <ul class="nav nav-tabs">
+            <li class="nav-item"><a class="nav-link" href="./home.html">Trang chủ</a></li>
+            <li class="nav-item"><a class="nav-link" href="./gioithieu.html">Giới thiệu    </a></li>
+            <li class="nav-item"><a class="nav-link" href="./tintuc.html">Tin tức   </a></li>
+            <li class="nav-item"><a class="nav-link" href="./thi.html">Thi </a></li>
+            <li class="nav-item"><a class="nav-link" href="./hoctap.html">Học tập  </a></li>
+            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Tra cứu </a>
+              <ul class="header-nav__ul dropdown-menu">
+                <li><a class="header-nav__ul-a dropdown-item" href="">Tra cứu vi phạm</a></li>
+                <li><a class="header-nav__ul-a dropdown-item" href="">Tra cứu kết quả thi</a></li>
+                <li><a class="header-nav__ul-a dropdown-item" href="">Thống kê</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Liên hệ</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="header-profile js-profile"><img src="../assets/images/8.png" alt=""><span>Tên đăng nhập: <strong>vanminh12</strong></span><span>Số tài khoản:  <strong>123456</strong></span>
+        <ul>
+          <li>     <a href="./thongtincanhan-thanhvien.html">Thông tin cá nhân<img src="../assets/images/avtaa.png" alt=""><img src="../assets/images/Vector.png" alt=""></a></li>
+          <li>     <a href="">Khóa học đã tham gia<img src="../assets/images/book.png" alt=""><img src="../assets/images/Vector.png" alt=""></a></li>
+          <li>     <a class="js-dmk" href="./thongtincanhan-thanhvien.html">Đổi mật khẩu<img src="../assets/images/key.png" alt=""><img src="../assets/images/Vector.png" alt=""></a></li>
+          <li>Đăng xuất               </li>
+        </ul>
+      </div>
+    </header>
+    <div class="app30">
+      <div class="container">
+        <div class="app30-body"><span class="app30-span">Tra cứu /Tra cứu vi phạm</span>
+          <div class="app30-ul">
+            <div class="app30-ul__li1">CUỘC THI AN TOÀN GIAO THÔNG QUỐC GIA</div>
+            <div class="app30-ul__em">
+              <div class="app30-ul__li"> <span class="app30-ul__li-span">Học sinh:</span>
+                <p class="app30-ul__li-p">Nguyễn Ngọc Hoàn</p>
+              </div>
+              <div class="app30-ul__li"> <span class="app30-ul__li-span">Trường: </span>
+                <p class="app30-ul__li-p">THPT  Vũ Văn Hiếu</p>
+              </div>
+              <div class="app30-ul__li app30-ul__li2"><span class="app30-ul__li-span">Khối:</span>
+                <p class="app30-ul__li-p">12</p>
+                <div class="app30-ul__li app30-ul__li3"><span class="app30-ul__li-span">Lớp:</span>
+                  <p class="app30-ul__li-p">12a1</p>
+                </div>
+              </div>
+            </div>
+            <div class="app30-ul__em">
+              <div class="app30-ul__li"> <span class="app30-ul__li-span">Thời gian tham gia:</span>
+                <p class="app30-ul__li-p"> 24/12/2022 - 30/01/2023</p>
+              </div>
+              <div class="app30-ul__li"> <span class="app30-ul__li-span">Điểm làm bài:</span>
+                <p class="app30-ul__li-p">320</p>
+              </div>
+              <div class="app30-ul__li"> <span class="app30-ul__li-span">Thời gian làm bài: </span>
+                <p class="app30-ul__li-p">30 phút 12 giây</p>
+              </div>
+            </div>
+          </div>
+          <div class="app31-right__ul app30-infomb">
+            <div class="app31-right__ul-li app31-right__ul-li1 app30-infomb__li1"><img class="app31-right__ul-li__img" src="../assets/images/8.png" alt=""></div>
+            <div class="app31-right__ul-li app31-right__ul-li2 app30-infomb__li2">
+              <div class="app31-right__ul-li__em"><span class="app31-right__ul-li__em-span app30-infomb__span">Học sinh:</span>
+                <p class="app31-right__ul-li__p app30-infomb__p">Nguyễn Ngọc Hoàn</p>
+              </div>
+              <div class="app31-right__ul-li__em"><span class="app31-right__ul-li__em-span app30-infomb__span">Khối:</span>
+                <p class="app31-right__ul-li__p app30-infomb__p">12</p>
+              </div>
+              <div class="app31-right__ul-li__em"><span class="app31-right__ul-li__em-span app30-infomb__span">Lớp:</span>
+                <p class="app31-right__ul-li__p app30-infomb__p">12A12</p>
+              </div>
+              <div class="app31-right__ul-li__em"><span class="app31-right__ul-li__em-span app30-infomb__span">Trường:</span>
+                <p class="app31-right__ul-li__p app30-infomb__p">THPT Vũ Văn Hiếu</p>
+              </div>
+            </div>
+            <div class="popup-kqt__ul">
+              <div class="popup-kqt__ul-li"> 
+                <div class="popup-kqt__ul-li__em popup-kqt__ul-li__em3"><img class="popup-kqt__ul-li__em-img" src="../assets/images/icon-p-1.svg" alt=""></div>
+                <div class="popup-kqt__ul-li__em"> 
+                  <div class="popup-kqt__ul-li__em1 app30-infomb__em1">Thời gian</div>
+                  <div class="popup-kqt__ul-li__em2 app30-infomb__em2">120 phút</div>
+                </div>
+              </div>
+              <div class="popup-kqt__ul-li popup-kqt__ul-li1">
+                <div class="popup-kqt__ul-li__em popup-kqt__ul-li__em3">  <img class="popup-kqt__ul-li__em-img" src="../assets/images/icon-p-2.svg" alt=""></div>
+                <div class="popup-kqt__ul-li__em"> 
+                  <div class="popup-kqt__ul-li__em1 app30-infomb__em1">Điểm thi</div>
+                  <div class="popup-kqt__ul-li__em2 app30-infomb__em2">120</div>
+                </div>
+              </div>
+              <div class="popup-kqt__ul-li"> 
+                <div class="popup-kqt__ul-li__em popup-kqt__ul-li__em3"><img class="popup-kqt__ul-li__em-img" src="../assets/images/icon-p-3.svg" alt=""></div>
+                <div class="popup-kqt__ul-li__em"> 
+                  <div class="popup-kqt__ul-li__em1 app30-infomb__em1">Xếp hạng</div>
+                  <div class="popup-kqt__ul-li__em2 app30-infomb__em2">120 </div>
+                </div>
+              </div>
+            </div><a class="popup-kqt__btn app30-infomb__btn" href="">Xem chi tiết</a>
+          </div>
+          <div class="app30-ul2">
+            <div class="app30-ul2__li">Xếp hạng cập nhật liên tục trong 24h</div>
+            <div class="app30-ul2__li"><a class="app30-ul2__li-a" href="">Bảng xếp hạng</a></div>
+          </div>
+          <div class="app30-table">
+            <table>
+              <thead>
+                <tr> 
+                  <th>Cấp</th>
+                  <th>Chi tiết</th>
+                  <th>Xếp hạng</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr> 
+                  <td>Trường</td>
+                  <td>Trung học cơ sở A Hải Anh</td>
+                  <td>123/300</td>
+                </tr>
+                <tr>
+                  <td>Quận/Huyện</td>
+                  <td>Hải Hậu</td>
+                  <td>100/1000</td>
+                </tr>
+                <tr>
+                  <td>Tỉnh/Thành phố</td>
+                  <td>Nam Định </td>
+                  <td>230/12000</td>
+                </tr>
+                <tr>
+                  <td>Quốc gia</td>
+                  <td>Việt Nam</td>
+                  <td>670/928282</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <h2 class="app30-heading">Chi tiết tham gia cuộc thi</h2>
+          <div class="app30-table">
+            <table>
+              <thead>
+                <tr> 
+                  <th>Bài thi</th>
+                  <th>Thời gian bắt đầu</th>
+                  <th>Thời gian làm bài</th>
+                  <th>Điểm số</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr> 
+                  <td>Bài thi số 4</td>
+                  <td>12:30<br>12/12/2022</td>
+                  <td>30 phút 20 giây</td>
+                  <td>80</td>
+                </tr>
+                <tr> 
+                  <td>Bài thi số 3</td>
+                  <td>12:30<br>12/12/2022</td>
+                  <td>30 phút 20 giây</td>
+                  <td>80</td>
+                </tr>
+                <tr> 
+                  <td>Bài thi số 2</td>
+                  <td>12:30<br>12/12/2022</td>
+                  <td>30 phút 20 giây</td>
+                  <td>80</td>
+                </tr>
+                <tr> 
+                  <td>Bài thi số 1</td>
+                  <td>12:30<br>12/12/2022</td>
+                  <td>30 phút 20 giây</td>
+                  <td>80</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <ul>
+          <li>
+            <h3>TỔNG CÔNG TY TRUYỀN THÔNG ĐA PHƯƠNG TIỆN (VTC)</h3>
+            <h3>CÔNG TY VTC CÔNG NGHỆ VÀ NỘI DUNG SỐ (VTC INTECOM)</h3>
+            <p>Tầng 13-14, Tòa nhà VTC 23 Lạc Trung, Quận Hai Bà Trưng, Hà Nội</p><span>Đăng ký nhận thông tin qua e-mail:</span>
+            <div class="footer-register">
+              <input placeholder="Nhập địa chỉ e-mail">
+              <button>Đăng kí</button>
+            </div>
+          </li>
+          <li>
+            <h3>Nền tảng số<br> an toàn giao thông<br> Việt Nam</h3><a href="./index.html">Trang chủ</a><a href="./index10.html">Tin tức</a><a href="/index3.html">Thi</a><a href="./index18.html">Học tập</a>
+          </li>
+          <li>
+            <h3>Sản phẩm của<br>chúng tôi</h3><a href="#">Truyền hình</a><a href="#">Giải trí trực tuyến</a><a href="#">Thanh toán và thương mại điện tử</a><a href="#">Truyền thông trực tuyến</a>
+          </li>
+          <li>
+            <h3>Liên hệ</h3><a href="tel:+842444551530">(+84)24 4455 1530<img src="../assets/images/phone.png" alt=""></a><a href="mailto:atgtqg@vtc.vn">atgtqg@vtc.vn<img src="../assets/images/gmail.png" alt=""></a>
+            <div class="footer-social"><img src="../assets/images/FAA.png" alt=""><img src="../assets/images/tw.png" alt=""><img src="../assets/images/inta.png" alt=""><img src="../assets/images/gg.png" alt=""></div>
+          </li>
+        </ul><span>Đăng ký nhận thông tin qua e-mail:</span>
+        <div class="footer-registermb"> 
+          <input placeholder="Nhập địa chỉ e-mail">
+          <button>Đăng kí</button>
+        </div>
+      </div>
+    </footer>
+    <script src="../js/index.js"> </script>
+    <script src="../js/bootstrap.min.js"> </script>
+  </body>
+</html>

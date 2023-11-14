@@ -1,0 +1,1347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">  
+      <div class="container">
+        <div class="header-top">
+          <div class="header-top__menumb js-menumb"><img class="js-showmenu" src="../assets/images/menumb.png">
+            <ul>
+              <li> <a href="./home.html"><img src="../assets/images/logo.png" alt=""></a><img class="js-closemenu" src="../assets/images/exit.png" alt=""></li>
+              <li class="active"><em><a href="./dangnhap.html">Đăng nhập / Đăng ký</a><img src="../assets/images/avata2.png" alt=""></em><em> <a href="./thongtincanhan-thanhvien.html">Nguyễn Ngọc Hoàn <br><strong>Thành viên</strong></a><img src="../assets/images/avata3.png" alt=""></em></li>
+              <li>
+                <input placeholder="Tra cứu nhanh"><img src="../assets/images/search.png" alt="">
+              </li>
+              <li><a href="./home.html">Trang chủ</a></li>
+              <li><a href="./gioithieu.html">Giới thiệu    </a></li>
+              <li><a href="./thi.html">Thi </a></li>
+              <li><a href="./hoctap.html">Học tập  </a></li>
+              <li><a class="header-submn__a collapsed" href="#collapse1" data-bs-toggle="collapse">Tra cứu</a>
+                <ul class="collapse header-submn__ul" id="collapse1">
+                  <li class="header-submn__ul-li"><a class="header-submn__ul-li__a" href="">Tra cứu vi phạm</a></li>
+                  <li class="header-submn__ul-li"><a class="header-submn__ul-li__a" href="">Tra cứu kết quả thi</a></li>
+                  <li class="header-submn__ul-li"><a class="header-submn__ul-li__a" href="">Thống kê</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Liên hệ</a></li>
+            </ul>
+            <div class="header-top__menumb-overlay"></div>
+          </div>
+          <div class="header-top__logo"><a href="./home.html"><img src="../assets/images/logo.svg" alt=""></a></div>
+          <div class="header-top__loginmb js-showprofile active"></div>
+          <ul class="header-top__contact">
+            <li><img src="../assets/images/gm.png" alt=""><a href="mailto:support@vtc.vn">support@vtc.vn</a></li>
+            <li><img src="../assets/images/fa.png"><a href="support@vtc.vn">support@vtc.vn</a></li>
+            <li><img src="../assets/images/pn.png" alt=""><a href="tel:19001234">19001234</a></li>
+          </ul>
+          <div class="header-top__login js-login active">
+            <ul>
+              <li> <a href="./dangnhap.html">Đăng nhập</a></li>
+              <li> <a href="./dangki.html">Đăng ký</a></li>
+            </ul>
+            <ul> 
+              <li> <em><a href="./thongtincanhan-thanhvien.html"><span><img src="../assets/images/avtaa.png" alt=""></span><span>vanminh12</span></a></em><img src="../assets/images/row.png" alt="">
+                <ul>
+                  <li> <img src="../assets/images/avtaa.png" alt=""><a href="./thongtincanhan-thanhvien.html">Thông tin cá nhân</a></li>
+                  <li>  <img src="../assets/images/book.png" alt=""><a href="#">Khóa học đã tham gia</a></li>
+                  <li> <img src="../assets/images/key.png" alt=""><a href="./thongtincanhan-thanhvien.html">Đổi mật khẩu</a></li>
+                  <li class="js-logout">Đăng xuất</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="header-nav js-nav">
+        <div class="container"><a class="header-nav__homemb" href="./home.html"></a>
+          <ul class="nav nav-tabs">
+            <li class="nav-item"><a class="nav-link" href="./home.html">Trang chủ</a></li>
+            <li class="nav-item"><a class="nav-link" href="./gioithieu.html">Giới thiệu    </a></li>
+            <li class="nav-item"><a class="nav-link" href="./tintuc.html">Tin tức   </a></li>
+            <li class="nav-item"><a class="nav-link" href="./thi.html">Thi </a></li>
+            <li class="nav-item"><a class="nav-link" href="./hoctap.html">Học tập  </a></li>
+            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Tra cứu </a>
+              <ul class="header-nav__ul dropdown-menu">
+                <li><a class="header-nav__ul-a dropdown-item" href="">Tra cứu vi phạm</a></li>
+                <li><a class="header-nav__ul-a dropdown-item" href="">Tra cứu kết quả thi</a></li>
+                <li><a class="header-nav__ul-a dropdown-item" href="">Thống kê</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Liên hệ</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="header-profile js-profile"><img src="../assets/images/8.png" alt=""><span>Tên đăng nhập: <strong>vanminh12</strong></span><span>Số tài khoản:  <strong>123456</strong></span>
+        <ul>
+          <li>     <a href="./thongtincanhan-thanhvien.html">Thông tin cá nhân<img src="../assets/images/avtaa.png" alt=""><img src="../assets/images/Vector.png" alt=""></a></li>
+          <li>     <a href="">Khóa học đã tham gia<img src="../assets/images/book.png" alt=""><img src="../assets/images/Vector.png" alt=""></a></li>
+          <li>     <a class="js-dmk" href="./thongtincanhan-thanhvien.html">Đổi mật khẩu<img src="../assets/images/key.png" alt=""><img src="../assets/images/Vector.png" alt=""></a></li>
+          <li>Đăng xuất               </li>
+        </ul>
+      </div>
+    </header>
+    <div class="index-4-banner"></div>
+    <div class="index-4-app">
+      <div class="container flex-wrap justify-content-center">
+        <div class="row justify-content-between align-items-center up259-row">
+          <div class="col-6 col-md-4"><span class="up259-span">ĐỀ THI SỐ 2</span></div>
+          <div class="col-4 d-md-block d-none">
+            <div class="d-flex align-items-center justify-content-center"><img src="../assets/images/icon-n-1.png" alt="Time"><span class="up259-span1 mx-2">Thời gian thi còn lại</span><span class="up259-span2">08:20</span></div>
+          </div>
+          <div class="col-6 justify-content-end d-flex col-md-4"><a class="up259-a" href="">Nộp bài</a></div>
+        </div>
+        <div class="index-4-app-left">
+          <div class="row my-3 up259-row3 pb-3">
+            <div class="col-4"><a href=""><img src="../assets/images/icon-btn-7.png" alt="btn-prev"></a></div>
+            <div class="col-4 d-flex justify-content-center align-items-center"><span class="up259-span5">Câu 31</span></div>
+            <div class="col-4 d-flex justify-content-end"><a href=""><img src="../assets/images/icon-btn-6.png" alt="btn-next"></a></div>
+          </div>
+          <div class="tab-content">
+            <div class="tab-pane active index-4-app-left__pane" id="c0">
+              <h3>Câu hỏi 0:</h3>
+              <p>Biển nào không cho phép ô tô con vượt?</p><span> <img src="../assets/images/ch.png"></span>
+              <ul class="js-index4-resulf index-4-app-left__ul">
+                <li> 
+                  <label>1. Biển 1 và 2</label>
+                </li>
+                <li>
+                  <label>2. Biển 2</label>
+                </li>
+                <li> 
+                  <label>3. Biển 1 và 3</label>
+                </li>
+                <li> 
+                  <label>4. Biển 2 và 3</label>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane index-4-app-left__pane" id="c1">
+              <h3>Câu hỏi 1:</h3>
+              <p>Biển nào không cho phép ô tô con vượt?</p><span> <img src="../assets/images/ch.png"></span>
+              <ul class="js-index4-resulf index-4-app-left__ul">
+                <li> 
+                  <label>1.1</label>
+                </li>
+                <li>
+                  <label>2. Biển 2</label>
+                </li>
+                <li> 
+                  <label>3. Biển 1 và 3</label>
+                </li>
+                <li> 
+                  <label>4. Biển 2 và 3</label>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane index-4-app-left__pane" id="c2">
+              <h3>Câu hỏi 2:</h3>
+              <p>Biển nào không cho phép ô tô con vượt?</p><span> <img src="../assets/images/ch.png"></span>
+              <ul class="js-index4-resulf index-4-app-left__ul">
+                <li> 
+                  <label>1.2</label>
+                </li>
+                <li>
+                  <label>2. Biển 2</label>
+                </li>
+                <li> 
+                  <label>3. Biển 1 và 3</label>
+                </li>
+                <li> 
+                  <label>4. Biển 2 và 3</label>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane index-4-app-left__pane" id="c3">
+              <h3>Câu hỏi 3:</h3>
+              <p>Biển nào không cho phép ô tô con vượt?</p><span> <img src="../assets/images/ch.png"></span>
+              <ul class="js-index4-resulf index-4-app-left__ul">
+                <li> 
+                  <label>1.3</label>
+                </li>
+                <li>
+                  <label>2. Biển 2</label>
+                </li>
+                <li> 
+                  <label>3. Biển 1 và 3</label>
+                </li>
+                <li> 
+                  <label>4. Biển 2 và 3</label>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane index-4-app-left__pane" id="c4">
+              <h3>Câu hỏi 4:</h3>
+              <p>Biển nào không cho phép ô tô con vượt?</p><span> <img src="../assets/images/ch.png"></span>
+              <ul class="js-index4-resulf index-4-app-left__ul">
+                <li> 
+                  <label>1.4</label>
+                </li>
+                <li>
+                  <label>2. Biển 2</label>
+                </li>
+                <li> 
+                  <label>3. Biển 1 và 3</label>
+                </li>
+                <li> 
+                  <label>4. Biển 2 và 3</label>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane index-4-app-left__pane" id="c5">
+              <h3>Câu hỏi 5:</h3>
+              <p>Biển nào không cho phép ô tô con vượt?</p><span> <img src="../assets/images/ch.png"></span>
+              <ul class="js-index4-resulf index-4-app-left__ul">
+                <li> 
+                  <label>1.5</label>
+                </li>
+                <li>
+                  <label>2. Biển 2</label>
+                </li>
+                <li> 
+                  <label>3. Biển 1 và 3</label>
+                </li>
+                <li> 
+                  <label>4. Biển 2 và 3</label>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane index-4-app-left__pane" id="c6">
+              <h3>Câu hỏi 6:</h3>
+              <p>Biển nào không cho phép ô tô con vượt?</p><span> <img src="../assets/images/ch.png"></span>
+              <ul class="js-index4-resulf index-4-app-left__ul">
+                <li> 
+                  <label>1.6</label>
+                </li>
+                <li>
+                  <label>2. Biển 2</label>
+                </li>
+                <li> 
+                  <label>3. Biển 1 và 3</label>
+                </li>
+                <li> 
+                  <label>4. Biển 2 và 3</label>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane index-4-app-left__pane" id="c7">
+              <h3>Câu hỏi 7:</h3>
+              <p>Biển nào không cho phép ô tô con vượt?</p><span> <img src="../assets/images/ch.png"></span>
+              <ul class="js-index4-resulf index-4-app-left__ul">
+                <li> 
+                  <label>1.7</label>
+                </li>
+                <li>
+                  <label>2. Biển 2</label>
+                </li>
+                <li> 
+                  <label>3. Biển 1 và 3</label>
+                </li>
+                <li> 
+                  <label>4. Biển 2 và 3</label>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane index-4-app-left__pane" id="c8">
+              <h3>Câu hỏi 8:</h3>
+              <p>Biển nào không cho phép ô tô con vượt?</p><span> <img src="../assets/images/ch.png"></span>
+              <ul class="js-index4-resulf index-4-app-left__ul">
+                <li> 
+                  <label>1.8</label>
+                </li>
+                <li>
+                  <label>2. Biển 2</label>
+                </li>
+                <li> 
+                  <label>3. Biển 1 và 3</label>
+                </li>
+                <li> 
+                  <label>4. Biển 2 và 3</label>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane index-4-app-left__pane" id="c9">
+              <h3>Câu hỏi 9:</h3>
+              <p>Biển nào không cho phép ô tô con vượt?</p><span> <img src="../assets/images/ch.png"></span>
+              <ul class="js-index4-resulf index-4-app-left__ul">
+                <li> 
+                  <label>1.9</label>
+                </li>
+                <li>
+                  <label>2. Biển 2</label>
+                </li>
+                <li> 
+                  <label>3. Biển 1 và 3</label>
+                </li>
+                <li> 
+                  <label>4. Biển 2 và 3</label>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane index-4-app-left__pane" id="c10">
+              <h3>Câu hỏi 10:</h3>
+              <p>Biển nào không cho phép ô tô con vượt?</p><span> <img src="../assets/images/ch.png"></span>
+              <ul class="js-index4-resulf index-4-app-left__ul">
+                <li> 
+                  <label>1.10</label>
+                </li>
+                <li>
+                  <label>2. Biển 2</label>
+                </li>
+                <li> 
+                  <label>3. Biển 1 và 3</label>
+                </li>
+                <li> 
+                  <label>4. Biển 2 và 3</label>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane index-4-app-left__pane" id="c11">
+              <h3>Câu hỏi 11:</h3>
+              <p>Biển nào không cho phép ô tô con vượt?</p><span> <img src="../assets/images/ch.png"></span>
+              <ul class="js-index4-resulf index-4-app-left__ul">
+                <li> 
+                  <label>1.11</label>
+                </li>
+                <li>
+                  <label>2. Biển 2</label>
+                </li>
+                <li> 
+                  <label>3. Biển 1 và 3</label>
+                </li>
+                <li> 
+                  <label>4. Biển 2 và 3</label>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane index-4-app-left__pane" id="c12">
+              <h3>Câu hỏi 12:</h3>
+              <p>Biển nào không cho phép ô tô con vượt?</p><span> <img src="../assets/images/ch.png"></span>
+              <ul class="js-index4-resulf index-4-app-left__ul">
+                <li> 
+                  <label>1.12</label>
+                </li>
+                <li>
+                  <label>2. Biển 2</label>
+                </li>
+                <li> 
+                  <label>3. Biển 1 và 3</label>
+                </li>
+                <li> 
+                  <label>4. Biển 2 và 3</label>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane index-4-app-left__pane" id="c13">
+              <h3>Câu hỏi 13:</h3>
+              <p>Biển nào không cho phép ô tô con vượt?</p><span> <img src="../assets/images/ch.png"></span>
+              <ul class="js-index4-resulf index-4-app-left__ul">
+                <li> 
+                  <label>1.13</label>
+                </li>
+                <li>
+                  <label>2. Biển 2</label>
+                </li>
+                <li> 
+                  <label>3. Biển 1 và 3</label>
+                </li>
+                <li> 
+                  <label>4. Biển 2 và 3</label>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane index-4-app-left__pane" id="c14">
+              <h3>Câu hỏi 14:</h3>
+              <p>Biển nào không cho phép ô tô con vượt?</p><span> <img src="../assets/images/ch.png"></span>
+              <ul class="js-index4-resulf index-4-app-left__ul">
+                <li> 
+                  <label>1.14</label>
+                </li>
+                <li>
+                  <label>2. Biển 2</label>
+                </li>
+                <li> 
+                  <label>3. Biển 1 và 3</label>
+                </li>
+                <li> 
+                  <label>4. Biển 2 và 3</label>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane index-4-app-left__pane" id="c15">
+              <h3>Câu hỏi 15:</h3>
+              <p>Biển nào không cho phép ô tô con vượt?</p><span> <img src="../assets/images/ch.png"></span>
+              <ul class="js-index4-resulf index-4-app-left__ul">
+                <li> 
+                  <label>1.15</label>
+                </li>
+                <li>
+                  <label>2. Biển 2</label>
+                </li>
+                <li> 
+                  <label>3. Biển 1 và 3</label>
+                </li>
+                <li> 
+                  <label>4. Biển 2 và 3</label>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane index-4-app-left__pane" id="c16">
+              <h3>Câu hỏi 16:</h3>
+              <p>Biển nào không cho phép ô tô con vượt?</p><span> <img src="../assets/images/ch.png"></span>
+              <ul class="js-index4-resulf index-4-app-left__ul">
+                <li> 
+                  <label>1.16</label>
+                </li>
+                <li>
+                  <label>2. Biển 2</label>
+                </li>
+                <li> 
+                  <label>3. Biển 1 và 3</label>
+                </li>
+                <li> 
+                  <label>4. Biển 2 và 3</label>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane index-4-app-left__pane" id="c17">
+              <h3>Câu hỏi 17:</h3>
+              <p>Biển nào không cho phép ô tô con vượt?</p><span> <img src="../assets/images/ch.png"></span>
+              <ul class="js-index4-resulf index-4-app-left__ul">
+                <li> 
+                  <label>1.17</label>
+                </li>
+                <li>
+                  <label>2. Biển 2</label>
+                </li>
+                <li> 
+                  <label>3. Biển 1 và 3</label>
+                </li>
+                <li> 
+                  <label>4. Biển 2 và 3</label>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane index-4-app-left__pane" id="c18">
+              <h3>Câu hỏi 18:</h3>
+              <p>Biển nào không cho phép ô tô con vượt?</p><span> <img src="../assets/images/ch.png"></span>
+              <ul class="js-index4-resulf index-4-app-left__ul">
+                <li> 
+                  <label>1.18</label>
+                </li>
+                <li>
+                  <label>2. Biển 2</label>
+                </li>
+                <li> 
+                  <label>3. Biển 1 và 3</label>
+                </li>
+                <li> 
+                  <label>4. Biển 2 và 3</label>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane index-4-app-left__pane" id="c19">
+              <h3>Câu hỏi 19:</h3>
+              <p>Biển nào không cho phép ô tô con vượt?</p><span> <img src="../assets/images/ch.png"></span>
+              <ul class="js-index4-resulf index-4-app-left__ul">
+                <li> 
+                  <label>1.19</label>
+                </li>
+                <li>
+                  <label>2. Biển 2</label>
+                </li>
+                <li> 
+                  <label>3. Biển 1 và 3</label>
+                </li>
+                <li> 
+                  <label>4. Biển 2 và 3</label>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane index-4-app-left__pane" id="c20">
+              <h3>Câu hỏi 20:</h3>
+              <p>Biển nào không cho phép ô tô con vượt?</p><span> <img src="../assets/images/ch.png"></span>
+              <ul class="js-index4-resulf index-4-app-left__ul">
+                <li> 
+                  <label>1.20</label>
+                </li>
+                <li>
+                  <label>2. Biển 2</label>
+                </li>
+                <li> 
+                  <label>3. Biển 1 và 3</label>
+                </li>
+                <li> 
+                  <label>4. Biển 2 và 3</label>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane index-4-app-left__pane" id="c21">
+              <h3>Câu hỏi 21:</h3>
+              <p>Biển nào không cho phép ô tô con vượt?</p><span> <img src="../assets/images/ch.png"></span>
+              <ul class="js-index4-resulf index-4-app-left__ul">
+                <li> 
+                  <label>1.21</label>
+                </li>
+                <li>
+                  <label>2. Biển 2</label>
+                </li>
+                <li> 
+                  <label>3. Biển 1 và 3</label>
+                </li>
+                <li> 
+                  <label>4. Biển 2 và 3</label>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane index-4-app-left__pane" id="c22">
+              <h3>Câu hỏi 22:</h3>
+              <p>Biển nào không cho phép ô tô con vượt?</p><span> <img src="../assets/images/ch.png"></span>
+              <ul class="js-index4-resulf index-4-app-left__ul">
+                <li> 
+                  <label>1.22</label>
+                </li>
+                <li>
+                  <label>2. Biển 2</label>
+                </li>
+                <li> 
+                  <label>3. Biển 1 và 3</label>
+                </li>
+                <li> 
+                  <label>4. Biển 2 và 3</label>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane index-4-app-left__pane" id="c23">
+              <h3>Câu hỏi 23:</h3>
+              <p>Biển nào không cho phép ô tô con vượt?</p><span> <img src="../assets/images/ch.png"></span>
+              <ul class="js-index4-resulf index-4-app-left__ul">
+                <li> 
+                  <label>1.23</label>
+                </li>
+                <li>
+                  <label>2. Biển 2</label>
+                </li>
+                <li> 
+                  <label>3. Biển 1 và 3</label>
+                </li>
+                <li> 
+                  <label>4. Biển 2 và 3</label>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane index-4-app-left__pane" id="c24">
+              <h3>Câu hỏi 24:</h3>
+              <p>Biển nào không cho phép ô tô con vượt?</p><span> <img src="../assets/images/ch.png"></span>
+              <ul class="js-index4-resulf index-4-app-left__ul">
+                <li> 
+                  <label>1.24</label>
+                </li>
+                <li>
+                  <label>2. Biển 2</label>
+                </li>
+                <li> 
+                  <label>3. Biển 1 và 3</label>
+                </li>
+                <li> 
+                  <label>4. Biển 2 và 3</label>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane index-4-app-left__pane" id="c25">
+              <h3>Câu hỏi 25:</h3>
+              <p>Biển nào không cho phép ô tô con vượt?</p><span> <img src="../assets/images/ch.png"></span>
+              <ul class="js-index4-resulf index-4-app-left__ul">
+                <li> 
+                  <label>1.25</label>
+                </li>
+                <li>
+                  <label>2. Biển 2</label>
+                </li>
+                <li> 
+                  <label>3. Biển 1 và 3</label>
+                </li>
+                <li> 
+                  <label>4. Biển 2 và 3</label>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane index-4-app-left__pane" id="c26">
+              <h3>Câu hỏi 26:</h3>
+              <p>Biển nào không cho phép ô tô con vượt?</p><span> <img src="../assets/images/ch.png"></span>
+              <ul class="js-index4-resulf index-4-app-left__ul">
+                <li> 
+                  <label>1.26</label>
+                </li>
+                <li>
+                  <label>2. Biển 2</label>
+                </li>
+                <li> 
+                  <label>3. Biển 1 và 3</label>
+                </li>
+                <li> 
+                  <label>4. Biển 2 và 3</label>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane index-4-app-left__pane" id="c27">
+              <h3>Câu hỏi 27:</h3>
+              <p>Biển nào không cho phép ô tô con vượt?</p><span> <img src="../assets/images/ch.png"></span>
+              <ul class="js-index4-resulf index-4-app-left__ul">
+                <li> 
+                  <label>1.27</label>
+                </li>
+                <li>
+                  <label>2. Biển 2</label>
+                </li>
+                <li> 
+                  <label>3. Biển 1 và 3</label>
+                </li>
+                <li> 
+                  <label>4. Biển 2 và 3</label>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane index-4-app-left__pane" id="c28">
+              <h3>Câu hỏi 28:</h3>
+              <p>Biển nào không cho phép ô tô con vượt?</p><span> <img src="../assets/images/ch.png"></span>
+              <ul class="js-index4-resulf index-4-app-left__ul">
+                <li> 
+                  <label>1.28</label>
+                </li>
+                <li>
+                  <label>2. Biển 2</label>
+                </li>
+                <li> 
+                  <label>3. Biển 1 và 3</label>
+                </li>
+                <li> 
+                  <label>4. Biển 2 và 3</label>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane index-4-app-left__pane" id="c29">
+              <h3>Câu hỏi 29:</h3>
+              <p>Biển nào không cho phép ô tô con vượt?</p><span> <img src="../assets/images/ch.png"></span>
+              <ul class="js-index4-resulf index-4-app-left__ul">
+                <li> 
+                  <label>1.29</label>
+                </li>
+                <li>
+                  <label>2. Biển 2</label>
+                </li>
+                <li> 
+                  <label>3. Biển 1 và 3</label>
+                </li>
+                <li> 
+                  <label>4. Biển 2 và 3</label>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane index-4-app-left__pane" id="c30">
+              <h3>Câu hỏi 30:</h3>
+              <p>Biển nào không cho phép ô tô con vượt?</p><span> <img src="../assets/images/ch.png"></span>
+              <ul class="js-index4-resulf index-4-app-left__ul">
+                <li> 
+                  <label>1.30</label>
+                </li>
+                <li>
+                  <label>2. Biển 2</label>
+                </li>
+                <li> 
+                  <label>3. Biển 1 và 3</label>
+                </li>
+                <li> 
+                  <label>4. Biển 2 và 3</label>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane index-4-app-left__pane" id="c31">
+              <h3>Câu hỏi 31:</h3>
+              <p>Biển nào không cho phép ô tô con vượt?</p><span> <img src="../assets/images/ch.png"></span>
+              <ul class="js-index4-resulf index-4-app-left__ul">
+                <li> 
+                  <label>1.31</label>
+                </li>
+                <li>
+                  <label>2. Biển 2</label>
+                </li>
+                <li> 
+                  <label>3. Biển 1 và 3</label>
+                </li>
+                <li> 
+                  <label>4. Biển 2 và 3</label>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane index-4-app-left__pane" id="c32">
+              <h3>Câu hỏi 32:</h3>
+              <p>Biển nào không cho phép ô tô con vượt?</p><span> <img src="../assets/images/ch.png"></span>
+              <ul class="js-index4-resulf index-4-app-left__ul">
+                <li> 
+                  <label>1.32</label>
+                </li>
+                <li>
+                  <label>2. Biển 2</label>
+                </li>
+                <li> 
+                  <label>3. Biển 1 và 3</label>
+                </li>
+                <li> 
+                  <label>4. Biển 2 và 3</label>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane index-4-app-left__pane" id="c33">
+              <h3>Câu hỏi 33:</h3>
+              <p>Biển nào không cho phép ô tô con vượt?</p><span> <img src="../assets/images/ch.png"></span>
+              <ul class="js-index4-resulf index-4-app-left__ul">
+                <li> 
+                  <label>1.33</label>
+                </li>
+                <li>
+                  <label>2. Biển 2</label>
+                </li>
+                <li> 
+                  <label>3. Biển 1 và 3</label>
+                </li>
+                <li> 
+                  <label>4. Biển 2 và 3</label>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane index-4-app-left__pane" id="c34">
+              <h3>Câu hỏi 34:</h3>
+              <p>Biển nào không cho phép ô tô con vượt?</p><span> <img src="../assets/images/ch.png"></span>
+              <ul class="js-index4-resulf index-4-app-left__ul">
+                <li> 
+                  <label>1.34</label>
+                </li>
+                <li>
+                  <label>2. Biển 2</label>
+                </li>
+                <li> 
+                  <label>3. Biển 1 và 3</label>
+                </li>
+                <li> 
+                  <label>4. Biển 2 và 3</label>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane index-4-app-left__pane" id="c35">
+              <h3>Câu hỏi 35:</h3>
+              <p>Biển nào không cho phép ô tô con vượt?</p><span> <img src="../assets/images/ch.png"></span>
+              <ul class="js-index4-resulf index-4-app-left__ul">
+                <li> 
+                  <label>1.35</label>
+                </li>
+                <li>
+                  <label>2. Biển 2</label>
+                </li>
+                <li> 
+                  <label>3. Biển 1 và 3</label>
+                </li>
+                <li> 
+                  <label>4. Biển 2 và 3</label>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="index-4-app-left__resulf">
+            <h3>Giải thích đáp án:</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur fermentum cursus ullamcorper. Sed sed massa at enim molestie iaculis. Aliquam sed ante quis odio varius ullamcorper id vitae risus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur fermentum cursus ullamcorper. Sed sed massa at enim molestie iaculis. Aliquam sed ante quis odio varius ullamcorper id vitae risus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur fermentum cursus ullamcorper. Sed sed massa at enim molestie iaculis. Aliquam sed ante quis odio varius ullamcorper id vitae risus.</p>
+          </div>
+          <div class="index-4-app-left__btn"><span> <img src="../assets/images/row2.png" alt=""></span><span> <img src="../assets/images/row2.png" alt=""></span></div>
+          <div class="index-4-app-left__btnmb"><span> <img src="../assets/images/icon-btn-1.png" alt="" width="120" height="40"></span><span class="js-index4-showquestion"><img src="../assets/images/icon-btn-3.png" alt="">
+              <div class="up259-mb align-items-center px-4 justify-content-between"><span class="d-flex up259-mb1">Số câu đã làm : <span class="up259-mb1">5/30</span></span><a href=""><img src="../assets/images/icon-n-2.png" alt="close" width="24" height="24"></a></div>
+              <ul class="nav nav-tabs">
+                <li class="nav-item"><a class="nav-link active true" data-bs-toggle="tab" href="#c0">Câu 1<img src="../assets/images/icon-btn-4.png" alt="" width="17" height="17"></a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#c2">Câu 2<img src="../assets/images/icon-btn-5.png" alt="" width="17" height="17"></a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#c3">Câu 3<img src="../assets/images/icon-btn-5.png" alt="" width="17" height="17"></a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#c4">Câu 4<img src="../assets/images/icon-btn-5.png" alt="" width="17" height="17"></a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#c5">Câu 5<img src="../assets/images/icon-btn-5.png" alt="" width="17" height="17"></a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#c6">Câu 6<img src="../assets/images/icon-btn-5.png" alt="" width="17" height="17"></a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#c7">Câu 7<img src="../assets/images/icon-btn-5.png" alt="" width="17" height="17"></a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#c8">Câu 8<img src="../assets/images/icon-btn-5.png" alt="" width="17" height="17"></a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#c9">Câu 9<img src="../assets/images/icon-btn-5.png" alt="" width="17" height="17"></a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#c10">Câu 10<img src="../assets/images/icon-btn-5.png" alt="" width="17" height="17"></a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#c11">Câu 11<img src="../assets/images/icon-btn-5.png" alt="" width="17" height="17"></a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#c12">Câu 12<img src="../assets/images/icon-btn-5.png" alt="" width="17" height="17"></a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#c13">Câu 13<img src="../assets/images/icon-btn-5.png" alt="" width="17" height="17"></a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#c14">Câu 14<img src="../assets/images/icon-btn-5.png" alt="" width="17" height="17"></a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#c15">Câu 15<img src="../assets/images/icon-btn-5.png" alt="" width="17" height="17"></a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#c16">Câu 16<img src="../assets/images/icon-btn-5.png" alt="" width="17" height="17"></a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#c17">Câu 17<img src="../assets/images/icon-btn-5.png" alt="" width="17" height="17"></a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#c18">Câu 18<img src="../assets/images/icon-btn-5.png" alt="" width="17" height="17"></a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#c19">Câu 19<img src="../assets/images/icon-btn-5.png" alt="" width="17" height="17"></a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#c20">Câu 20<img src="../assets/images/icon-btn-5.png" alt="" width="17" height="17"></a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#c21">Câu 21<img src="../assets/images/icon-btn-5.png" alt="" width="17" height="17"></a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#c22">Câu 22<img src="../assets/images/icon-btn-5.png" alt="" width="17" height="17"></a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#c23">Câu 23<img src="../assets/images/icon-btn-5.png" alt="" width="17" height="17"></a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#c24">Câu 24<img src="../assets/images/icon-btn-5.png" alt="" width="17" height="17"></a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#c25">Câu 25<img src="../assets/images/icon-btn-5.png" alt="" width="17" height="17"></a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#c26">Câu 26<img src="../assets/images/icon-btn-5.png" alt="" width="17" height="17"></a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#c27">Câu 27<img src="../assets/images/icon-btn-5.png" alt="" width="17" height="17"></a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#c28">Câu 28<img src="../assets/images/icon-btn-5.png" alt="" width="17" height="17"></a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#c29">Câu 29<img src="../assets/images/icon-btn-5.png" alt="" width="17" height="17"></a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#c30">Câu 30<img src="../assets/images/icon-btn-5.png" alt="" width="17" height="17"></a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#c31">Câu 31<img src="../assets/images/icon-btn-5.png" alt="" width="17" height="17"></a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#c32">Câu 32<img src="../assets/images/icon-btn-5.png" alt="" width="17" height="17"></a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#c33">Câu 33<img src="../assets/images/icon-btn-5.png" alt="" width="17" height="17"></a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#c34">Câu 34<img src="../assets/images/icon-btn-5.png" alt="" width="17" height="17"></a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#c35">Câu 35<img src="../assets/images/icon-btn-5.png" alt="" width="17" height="17"></a></li>
+              </ul>
+              <div class="index-4-app-left__btnmb-overlay js-index4-overlay2"></div></span><span> <img src="../assets/images/icon-btn-2.png" alt="" width="120" height="40"></span></div>
+        </div>
+        <div class="index-4-app-right">
+          <div class="index-4-app-right__head">
+            <div class="up259-row2"><span class="up259-span4">Số câu đã làm</span><span class="up259-span3">12/30</span></div>
+          </div>
+          <ul class="nav nav-tabs">
+            <li class="js-index4-checked nav-item index-4-app-right__tabs">0<a class="nav-link active" data-bs-toggle="tab" href="#c0"></a>
+              <label>1
+                <input class="c1" type="checkbox" id="1-1">
+              </label>
+              <label>2
+                <input class="c1" type="checkbox" id="1-2">
+              </label>
+              <label>3
+                <input class="c1" type="checkbox" id="1-3">
+              </label>
+              <label>4
+                <input class="c1" type="checkbox" id="1-4">
+              </label>
+            </li>
+            <li class="js-index4-checked nav-item index-4-app-right__tabs">1<a class="nav-link" data-bs-toggle="tab" href="#c1"></a>
+              <label>1
+                <input class="c1" type="checkbox" id="1-1">
+              </label>
+              <label>2
+                <input class="c1" type="checkbox" id="1-2">
+              </label>
+              <label>3
+                <input class="c1" type="checkbox" id="1-3">
+              </label>
+              <label>4
+                <input class="c1" type="checkbox" id="1-4">
+              </label>
+            </li>
+            <li class="js-index4-checked nav-item index-4-app-right__tabs">2<a class="nav-link" data-bs-toggle="tab" href="#c2"></a>
+              <label>1
+                <input class="c2" type="checkbox" id="2-1">
+              </label>
+              <label>2
+                <input class="c2" type="checkbox" id="2-2">
+              </label>
+              <label>3
+                <input class="c2" type="checkbox" id="2-3">
+              </label>
+              <label>4
+                <input class="c2" type="checkbox" id="2-4">
+              </label>
+            </li>
+            <li class="js-index4-checked nav-item index-4-app-right__tabs">3<a class="nav-link" data-bs-toggle="tab" href="#c3"></a>
+              <label>1
+                <input class="c3" type="checkbox" id="3-1">
+              </label>
+              <label>2
+                <input class="c3" type="checkbox" id="3-2">
+              </label>
+              <label>3
+                <input class="c3" type="checkbox" id="3-3">
+              </label>
+              <label>4
+                <input class="c3" type="checkbox" id="3-4">
+              </label>
+            </li>
+            <li class="js-index4-checked nav-item index-4-app-right__tabs">4<a class="nav-link" data-bs-toggle="tab" href="#c4"></a>
+              <label>1
+                <input class="c4" type="checkbox" id="4-1">
+              </label>
+              <label>2
+                <input class="c4" type="checkbox" id="4-2">
+              </label>
+              <label>3
+                <input class="c4" type="checkbox" id="4-3">
+              </label>
+              <label>4
+                <input class="c4" type="checkbox" id="4-4">
+              </label>
+            </li>
+            <li class="js-index4-checked nav-item index-4-app-right__tabs">5<a class="nav-link" data-bs-toggle="tab" href="#c5"></a>
+              <label>1
+                <input class="c5" type="checkbox" id="5-1">
+              </label>
+              <label>2
+                <input class="c5" type="checkbox" id="5-2">
+              </label>
+              <label>3
+                <input class="c5" type="checkbox" id="5-3">
+              </label>
+              <label>4
+                <input class="c5" type="checkbox" id="5-4">
+              </label>
+            </li>
+            <li class="js-index4-checked nav-item index-4-app-right__tabs">6<a class="nav-link" data-bs-toggle="tab" href="#c6"></a>
+              <label>1
+                <input class="c6" type="checkbox" id="6-1">
+              </label>
+              <label>2
+                <input class="c6" type="checkbox" id="6-2">
+              </label>
+              <label>3
+                <input class="c6" type="checkbox" id="6-3">
+              </label>
+              <label>4
+                <input class="c6" type="checkbox" id="6-4">
+              </label>
+            </li>
+            <li class="js-index4-checked nav-item index-4-app-right__tabs">7<a class="nav-link" data-bs-toggle="tab" href="#c7"></a>
+              <label>1
+                <input class="c7" type="checkbox" id="7-1">
+              </label>
+              <label>2
+                <input class="c7" type="checkbox" id="7-2">
+              </label>
+              <label>3
+                <input class="c7" type="checkbox" id="7-3">
+              </label>
+              <label>4
+                <input class="c7" type="checkbox" id="7-4">
+              </label>
+            </li>
+            <li class="js-index4-checked nav-item index-4-app-right__tabs">8<a class="nav-link" data-bs-toggle="tab" href="#c8"></a>
+              <label>1
+                <input class="c8" type="checkbox" id="8-1">
+              </label>
+              <label>2
+                <input class="c8" type="checkbox" id="8-2">
+              </label>
+              <label>3
+                <input class="c8" type="checkbox" id="8-3">
+              </label>
+              <label>4
+                <input class="c8" type="checkbox" id="8-4">
+              </label>
+            </li>
+            <li class="js-index4-checked nav-item index-4-app-right__tabs">9<a class="nav-link" data-bs-toggle="tab" href="#c9"></a>
+              <label>1
+                <input class="c9" type="checkbox" id="9-1">
+              </label>
+              <label>2
+                <input class="c9" type="checkbox" id="9-2">
+              </label>
+              <label>3
+                <input class="c9" type="checkbox" id="9-3">
+              </label>
+              <label>4
+                <input class="c9" type="checkbox" id="9-4">
+              </label>
+            </li>
+            <li class="js-index4-checked nav-item index-4-app-right__tabs">10<a class="nav-link" data-bs-toggle="tab" href="#c10"></a>
+              <label>1
+                <input class="c10" type="checkbox" id="10-1">
+              </label>
+              <label>2
+                <input class="c10" type="checkbox" id="10-2">
+              </label>
+              <label>3
+                <input class="c10" type="checkbox" id="10-3">
+              </label>
+              <label>4
+                <input class="c10" type="checkbox" id="10-4">
+              </label>
+            </li>
+            <li class="js-index4-checked nav-item index-4-app-right__tabs">11<a class="nav-link" data-bs-toggle="tab" href="#c11"></a>
+              <label>1
+                <input class="c11" type="checkbox" id="11-1">
+              </label>
+              <label>2
+                <input class="c11" type="checkbox" id="11-2">
+              </label>
+              <label>3
+                <input class="c11" type="checkbox" id="11-3">
+              </label>
+              <label>4
+                <input class="c11" type="checkbox" id="11-4">
+              </label>
+            </li>
+            <li class="js-index4-checked nav-item index-4-app-right__tabs">12<a class="nav-link" data-bs-toggle="tab" href="#c12"></a>
+              <label>1
+                <input class="c12" type="checkbox" id="12-1">
+              </label>
+              <label>2
+                <input class="c12" type="checkbox" id="12-2">
+              </label>
+              <label>3
+                <input class="c12" type="checkbox" id="12-3">
+              </label>
+              <label>4
+                <input class="c12" type="checkbox" id="12-4">
+              </label>
+            </li>
+            <li class="js-index4-checked nav-item index-4-app-right__tabs">13<a class="nav-link" data-bs-toggle="tab" href="#c13"></a>
+              <label>1
+                <input class="c13" type="checkbox" id="13-1">
+              </label>
+              <label>2
+                <input class="c13" type="checkbox" id="13-2">
+              </label>
+              <label>3
+                <input class="c13" type="checkbox" id="13-3">
+              </label>
+              <label>4
+                <input class="c13" type="checkbox" id="13-4">
+              </label>
+            </li>
+            <li class="js-index4-checked nav-item index-4-app-right__tabs">14<a class="nav-link" data-bs-toggle="tab" href="#c14"></a>
+              <label>1
+                <input class="c14" type="checkbox" id="14-1">
+              </label>
+              <label>2
+                <input class="c14" type="checkbox" id="14-2">
+              </label>
+              <label>3
+                <input class="c14" type="checkbox" id="14-3">
+              </label>
+              <label>4
+                <input class="c14" type="checkbox" id="14-4">
+              </label>
+            </li>
+            <li class="js-index4-checked nav-item index-4-app-right__tabs">15<a class="nav-link" data-bs-toggle="tab" href="#c15"></a>
+              <label>1
+                <input class="c15" type="checkbox" id="15-1">
+              </label>
+              <label>2
+                <input class="c15" type="checkbox" id="15-2">
+              </label>
+              <label>3
+                <input class="c15" type="checkbox" id="15-3">
+              </label>
+              <label>4
+                <input class="c15" type="checkbox" id="15-4">
+              </label>
+            </li>
+            <li class="js-index4-checked nav-item index-4-app-right__tabs">16<a class="nav-link" data-bs-toggle="tab" href="#c16"></a>
+              <label>1
+                <input class="c16" type="checkbox" id="16-1">
+              </label>
+              <label>2
+                <input class="c16" type="checkbox" id="16-2">
+              </label>
+              <label>3
+                <input class="c16" type="checkbox" id="16-3">
+              </label>
+              <label>4
+                <input class="c16" type="checkbox" id="16-4">
+              </label>
+            </li>
+            <li class="js-index4-checked nav-item index-4-app-right__tabs">17<a class="nav-link" data-bs-toggle="tab" href="#c17"></a>
+              <label>1
+                <input class="c17" type="checkbox" id="17-1">
+              </label>
+              <label>2
+                <input class="c17" type="checkbox" id="17-2">
+              </label>
+              <label>3
+                <input class="c17" type="checkbox" id="17-3">
+              </label>
+              <label>4
+                <input class="c17" type="checkbox" id="17-4">
+              </label>
+            </li>
+            <li class="js-index4-checked nav-item index-4-app-right__tabs">18<a class="nav-link" data-bs-toggle="tab" href="#c18"></a>
+              <label>1
+                <input class="c18" type="checkbox" id="18-1">
+              </label>
+              <label>2
+                <input class="c18" type="checkbox" id="18-2">
+              </label>
+              <label>3
+                <input class="c18" type="checkbox" id="18-3">
+              </label>
+              <label>4
+                <input class="c18" type="checkbox" id="18-4">
+              </label>
+            </li>
+            <li class="js-index4-checked nav-item index-4-app-right__tabs">19<a class="nav-link" data-bs-toggle="tab" href="#c19"></a>
+              <label>1
+                <input class="c19" type="checkbox" id="19-1">
+              </label>
+              <label>2
+                <input class="c19" type="checkbox" id="19-2">
+              </label>
+              <label>3
+                <input class="c19" type="checkbox" id="19-3">
+              </label>
+              <label>4
+                <input class="c19" type="checkbox" id="19-4">
+              </label>
+            </li>
+            <li class="js-index4-checked nav-item index-4-app-right__tabs">20<a class="nav-link" data-bs-toggle="tab" href="#c20"></a>
+              <label>1
+                <input class="c20" type="checkbox" id="20-1">
+              </label>
+              <label>2
+                <input class="c20" type="checkbox" id="20-2">
+              </label>
+              <label>3
+                <input class="c20" type="checkbox" id="20-3">
+              </label>
+              <label>4
+                <input class="c20" type="checkbox" id="20-4">
+              </label>
+            </li>
+            <li class="js-index4-checked nav-item index-4-app-right__tabs">21<a class="nav-link" data-bs-toggle="tab" href="#c21"></a>
+              <label>1
+                <input class="c21" type="checkbox" id="21-1">
+              </label>
+              <label>2
+                <input class="c21" type="checkbox" id="21-2">
+              </label>
+              <label>3
+                <input class="c21" type="checkbox" id="21-3">
+              </label>
+              <label>4
+                <input class="c21" type="checkbox" id="21-4">
+              </label>
+            </li>
+            <li class="js-index4-checked nav-item index-4-app-right__tabs">22<a class="nav-link" data-bs-toggle="tab" href="#c22"></a>
+              <label>1
+                <input class="c22" type="checkbox" id="22-1">
+              </label>
+              <label>2
+                <input class="c22" type="checkbox" id="22-2">
+              </label>
+              <label>3
+                <input class="c22" type="checkbox" id="22-3">
+              </label>
+              <label>4
+                <input class="c22" type="checkbox" id="22-4">
+              </label>
+            </li>
+            <li class="js-index4-checked nav-item index-4-app-right__tabs">23<a class="nav-link" data-bs-toggle="tab" href="#c23"></a>
+              <label>1
+                <input class="c23" type="checkbox" id="23-1">
+              </label>
+              <label>2
+                <input class="c23" type="checkbox" id="23-2">
+              </label>
+              <label>3
+                <input class="c23" type="checkbox" id="23-3">
+              </label>
+              <label>4
+                <input class="c23" type="checkbox" id="23-4">
+              </label>
+            </li>
+            <li class="js-index4-checked nav-item index-4-app-right__tabs">24<a class="nav-link" data-bs-toggle="tab" href="#c24"></a>
+              <label>1
+                <input class="c24" type="checkbox" id="24-1">
+              </label>
+              <label>2
+                <input class="c24" type="checkbox" id="24-2">
+              </label>
+              <label>3
+                <input class="c24" type="checkbox" id="24-3">
+              </label>
+              <label>4
+                <input class="c24" type="checkbox" id="24-4">
+              </label>
+            </li>
+            <li class="js-index4-checked nav-item index-4-app-right__tabs">25<a class="nav-link" data-bs-toggle="tab" href="#c25"></a>
+              <label>1
+                <input class="c25" type="checkbox" id="25-1">
+              </label>
+              <label>2
+                <input class="c25" type="checkbox" id="25-2">
+              </label>
+              <label>3
+                <input class="c25" type="checkbox" id="25-3">
+              </label>
+              <label>4
+                <input class="c25" type="checkbox" id="25-4">
+              </label>
+            </li>
+            <li class="js-index4-checked nav-item index-4-app-right__tabs">26<a class="nav-link" data-bs-toggle="tab" href="#c26"></a>
+              <label>1
+                <input class="c26" type="checkbox" id="26-1">
+              </label>
+              <label>2
+                <input class="c26" type="checkbox" id="26-2">
+              </label>
+              <label>3
+                <input class="c26" type="checkbox" id="26-3">
+              </label>
+              <label>4
+                <input class="c26" type="checkbox" id="26-4">
+              </label>
+            </li>
+            <li class="js-index4-checked nav-item index-4-app-right__tabs">27<a class="nav-link" data-bs-toggle="tab" href="#c27"></a>
+              <label>1
+                <input class="c27" type="checkbox" id="27-1">
+              </label>
+              <label>2
+                <input class="c27" type="checkbox" id="27-2">
+              </label>
+              <label>3
+                <input class="c27" type="checkbox" id="27-3">
+              </label>
+              <label>4
+                <input class="c27" type="checkbox" id="27-4">
+              </label>
+            </li>
+            <li class="js-index4-checked nav-item index-4-app-right__tabs">28<a class="nav-link" data-bs-toggle="tab" href="#c28"></a>
+              <label>1
+                <input class="c28" type="checkbox" id="28-1">
+              </label>
+              <label>2
+                <input class="c28" type="checkbox" id="28-2">
+              </label>
+              <label>3
+                <input class="c28" type="checkbox" id="28-3">
+              </label>
+              <label>4
+                <input class="c28" type="checkbox" id="28-4">
+              </label>
+            </li>
+            <li class="js-index4-checked nav-item index-4-app-right__tabs">29<a class="nav-link" data-bs-toggle="tab" href="#c29"></a>
+              <label>1
+                <input class="c29" type="checkbox" id="29-1">
+              </label>
+              <label>2
+                <input class="c29" type="checkbox" id="29-2">
+              </label>
+              <label>3
+                <input class="c29" type="checkbox" id="29-3">
+              </label>
+              <label>4
+                <input class="c29" type="checkbox" id="29-4">
+              </label>
+            </li>
+            <li class="js-index4-checked nav-item index-4-app-right__tabs">30<a class="nav-link" data-bs-toggle="tab" href="#c30"></a>
+              <label>1
+                <input class="c30" type="checkbox" id="30-1">
+              </label>
+              <label>2
+                <input class="c30" type="checkbox" id="30-2">
+              </label>
+              <label>3
+                <input class="c30" type="checkbox" id="30-3">
+              </label>
+              <label>4
+                <input class="c30" type="checkbox" id="30-4">
+              </label>
+            </li>
+            <li class="js-index4-checked nav-item index-4-app-right__tabs">31<a class="nav-link" data-bs-toggle="tab" href="#c31"></a>
+              <label>1
+                <input class="c31" type="checkbox" id="31-1">
+              </label>
+              <label>2
+                <input class="c31" type="checkbox" id="31-2">
+              </label>
+              <label>3
+                <input class="c31" type="checkbox" id="31-3">
+              </label>
+              <label>4
+                <input class="c31" type="checkbox" id="31-4">
+              </label>
+            </li>
+            <li class="js-index4-checked nav-item index-4-app-right__tabs">32<a class="nav-link" data-bs-toggle="tab" href="#c32"></a>
+              <label>1
+                <input class="c32" type="checkbox" id="32-1">
+              </label>
+              <label>2
+                <input class="c32" type="checkbox" id="32-2">
+              </label>
+              <label>3
+                <input class="c32" type="checkbox" id="32-3">
+              </label>
+              <label>4
+                <input class="c32" type="checkbox" id="32-4">
+              </label>
+            </li>
+            <li class="js-index4-checked nav-item index-4-app-right__tabs">33<a class="nav-link" data-bs-toggle="tab" href="#c33"></a>
+              <label>1
+                <input class="c33" type="checkbox" id="33-1">
+              </label>
+              <label>2
+                <input class="c33" type="checkbox" id="33-2">
+              </label>
+              <label>3
+                <input class="c33" type="checkbox" id="33-3">
+              </label>
+              <label>4
+                <input class="c33" type="checkbox" id="33-4">
+              </label>
+            </li>
+            <li class="js-index4-checked nav-item index-4-app-right__tabs">34<a class="nav-link" data-bs-toggle="tab" href="#c34"></a>
+              <label>1
+                <input class="c34" type="checkbox" id="34-1">
+              </label>
+              <label>2
+                <input class="c34" type="checkbox" id="34-2">
+              </label>
+              <label>3
+                <input class="c34" type="checkbox" id="34-3">
+              </label>
+              <label>4
+                <input class="c34" type="checkbox" id="34-4">
+              </label>
+            </li>
+            <li class="js-index4-checked nav-item index-4-app-right__tabs">35<a class="nav-link" data-bs-toggle="tab" href="#c35"></a>
+              <label>1
+                <input class="c35" type="checkbox" id="35-1">
+              </label>
+              <label>2
+                <input class="c35" type="checkbox" id="35-2">
+              </label>
+              <label>3
+                <input class="c35" type="checkbox" id="35-3">
+              </label>
+              <label>4
+                <input class="c35" type="checkbox" id="35-4">
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <ul>
+          <li>
+            <h3>TỔNG CÔNG TY TRUYỀN THÔNG ĐA PHƯƠNG TIỆN (VTC)</h3>
+            <h3>CÔNG TY VTC CÔNG NGHỆ VÀ NỘI DUNG SỐ (VTC INTECOM)</h3>
+            <p>Tầng 13-14, Tòa nhà VTC 23 Lạc Trung, Quận Hai Bà Trưng, Hà Nội</p><span>Đăng ký nhận thông tin qua e-mail:</span>
+            <div class="footer-register">
+              <input placeholder="Nhập địa chỉ e-mail">
+              <button>Đăng kí</button>
+            </div>
+          </li>
+          <li>
+            <h3>Nền tảng số<br> an toàn giao thông<br> Việt Nam</h3><a href="./index.html">Trang chủ</a><a href="./index10.html">Tin tức</a><a href="/index3.html">Thi</a><a href="./index18.html">Học tập</a>
+          </li>
+          <li>
+            <h3>Sản phẩm của<br>chúng tôi</h3><a href="#">Truyền hình</a><a href="#">Giải trí trực tuyến</a><a href="#">Thanh toán và thương mại điện tử</a><a href="#">Truyền thông trực tuyến</a>
+          </li>
+          <li>
+            <h3>Liên hệ</h3><a href="tel:+842444551530">(+84)24 4455 1530<img src="../assets/images/phone.png" alt=""></a><a href="mailto:atgtqg@vtc.vn">atgtqg@vtc.vn<img src="../assets/images/gmail.png" alt=""></a>
+            <div class="footer-social"><img src="../assets/images/FAA.png" alt=""><img src="../assets/images/tw.png" alt=""><img src="../assets/images/inta.png" alt=""><img src="../assets/images/gg.png" alt=""></div>
+          </li>
+        </ul><span>Đăng ký nhận thông tin qua e-mail:</span>
+        <div class="footer-registermb"> 
+          <input placeholder="Nhập địa chỉ e-mail">
+          <button>Đăng kí</button>
+        </div>
+      </div>
+    </footer>
+    <script src="../js/index.js"> </script>
+    <script src="../js/bootstrap.min.js"> </script>
+  </body>
+</html>

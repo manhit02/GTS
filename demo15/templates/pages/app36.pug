@@ -1,0 +1,58 @@
+.app36
+    .app35-head.app36-head
+        .container.d-flex.justify-content-between
+            h1.app35-head__h1 Thêm mới cuộc thi
+            a.app36-head__btn(href="") Lưu
+         
+    .container
+        .row.mt-4
+            .col-3.d-flex.align-items-center
+                span.app36-span Cấp thi
+            .col-9
+                .app36-select
+                    select.app36-select1.app36-select2
+                        option(selected) Quốc gia
+        .row.mt-4
+            .col-3.d-flex.align-items-center
+                span.app36-span Tên cuộc thi
+            .col-9
+                input.app36-input1(placeholder="Quy tắc giao thông")
+        .row.mt-4
+            .col-3.d-flex.align-items-center
+                span.app36-span Yêu cầu nhập mã để tham gia
+            .col-9.d-flex
+                .form-check.d-flex.align-items-center
+                    input(type="radio" name="optradio" value="option1")#radio1.form-check-input 
+                    label.form-check-label(for="radio1") Bật
+                .form-check.d-flex.align-items-center
+                    input(type="radio" name="optradio" value="option2")#radio2.form-check-input 
+                    label.form-check-label(for="radio2") Tắt
+        .row.mt-4
+            .col-3.d-flex.align-items-center
+                span.app36-span Mô tả
+            .col-9
+                input.app36-input1(placeholder="Cuộc thi an toàn giao thông tỉnh Nam Định")
+        .row.mt-4
+            .col-3.d-flex.align-items-center
+                span.app36-span Thời gian bắt đầu
+            .col-9
+                .row
+                    .col-6.app36-input3
+                        input(type="time").app36-select1.app36-input1
+                    .col-6
+                        input(type="date").app36-select1.app36-input2
+        .row.mt-4
+            .col-3.d-flex.align-items-center
+                span.app36-span Thời gian kết thúc
+            .col-9
+                .row
+                    .col-6.app36-input3
+                        input(type="time").app36-select1.app36-input1
+                    .col-6
+                        input(type="date").app36-select1.app36-input2
+        
+        .row.mt-4
+            .col-3.d-flex.align-items-center
+                span.app36-span Lưu ý
+            .col-9
+                input.app36-input1(placeholder="Cuộc thi an toàn giao thông tỉnh Nam Định")

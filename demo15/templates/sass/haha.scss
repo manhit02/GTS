@@ -1,0 +1,79 @@
+
+// update 3-10-2023
+@media (min-width:1024px) {
+
+  .app33-right__table-btn,.app33-right__table-head__h1 , .app33-right__table-head__h1{font-size: 16px;}
+}
+.app33-right__table-btn{
+  width: 100%;
+}
+.app33-kqlb{
+  color: #FF0B26;
+  font-family: "NotoSans-medium";
+font-size: 14px;
+display: block;
+text-align: center;
+margin: 8px 0;
+line-height: normal;
+
+}
+table.app33-table1{
+      border-spacing: 0;
+  tbody{
+    tr{
+      height: 25px;
+      border-collapse:collapse;
+      border-spacing: 0;
+      td{
+        
+        width: calc(100% / 3) !important;
+      }
+      &:first-child{
+        td{
+          color: #000;
+          &:first-child{
+            border-bottom-left-radius: 0px;
+          }
+          &:last-child{
+            border-bottom-right-radius: 0px;
+          }
+        }
+      }
+     
+      &:last-child{
+        td{
+          &:first-child{
+            border-top-left-radius: 0px;
+          }
+          &:last-child{
+            border-top-right-radius: 0px;
+          }
+        }
+      }
+    }
+  }
+}
+.app33-left__table-tr__td{
+  border-left: 1px solid #0F7AEE;
+  border-right: 1px solid #0F7AEE;
+}
+.index-4-app{
+  background: #F5F9FF;
+}
+.header{
+  box-shadow: 0px 8px 10px 0px rgba(21, 0, 37, 0.20);
+
+}
+@media (max-width: 739px){
+
+  .up259-row {
+ border: 0;
+  }
+  .index-4-app-left{
+    box-shadow: none;
+  }
+  .index-4-app-left__btnmb{
+
+box-shadow: 0px 3.50467px 17.52336px 0px rgba(0, 0, 0, 0.10);
+  }
+}
